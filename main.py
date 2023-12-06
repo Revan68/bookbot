@@ -39,8 +39,8 @@ def letter_count(text):
 
 def chars_dict_to_sorted_list(num_chars_dict):
     sorted_list = []
-    for ch in num_chars_dict:
-        sorted_list.append({"char": ch, "num": num_chars_dict[ch]})
+    for i in num_chars_dict:
+        sorted_list.append({"char": i, "num": num_chars_dict[i]})
     sorted_list.sort(reverse=True, key=sort_on)
     return sorted_list
 
